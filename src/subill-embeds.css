@@ -1,0 +1,248 @@
+/** Pricing Embed Top level Element **/
+#subill-pricing-embed * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#subill-pricing-embed .subill-billing-type-selector {
+    font-family: "Open Sans", "Arial";
+}
+#subill-pricing-embed .subill-billing-type-selector ul._selector {
+    font-size: 13px;
+    border-radius: 0;
+    background: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#subill-pricing-embed
+.subill-billing-type-selector
+ul._selector
+li._interval._selected {
+    box-shadow: none;
+    border-radius: 2px;
+    background-color: #3aa6fe;
+}
+#subill-pricing-embed .subill-pricing-table {
+    border-color: #3aa6fe;
+    border: none;
+}
+
+#subill-pricing-embed .subill-pricing-table ._tier ._name {
+    font-family: "Merriweather", "Arial";
+    font-size: 20px;
+    color: white;
+    background-color: #3aa6fe;
+}
+#subill-pricing-embed .subill-pricing-table ._tier ._price {
+    font-size: 40px;
+    color: #3aa6fe;
+}
+#subill-pricing-embed
+.subill-pricing-table
+._tier
+._price
+._interval-name {
+    font-size: 16px;
+}
+#subill-pricing-embed .subill-pricing-table ._tier ul._feature-list {
+    margin-bottom: 40px;
+}
+#subill-pricing-embed
+.subill-pricing-table
+._tier
+ul._feature-list
+._item {
+    font-size: 14px;
+    font-weight: 100;
+    padding: 16px 0;
+}
+#subill-pricing-embed .subill-pricing-table ._tier button._select-tier {
+    box-shadow: none;
+    color: #64dd17;
+    border-color: #64dd17;
+    font-size: 14px;
+}
+
+/* Sign up */
+#subill-pricing-embed{
+    position: relative;
+}
+#subill-pricing-embed .back-pricing{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    background-color: white;
+    box-shadow: none;
+    color: #3babfe;
+    margin: 5px;
+}
+.subill--rf-embeddable.custom .rf--form-wrapper{
+    border: none;
+}
+.subill--rf-embeddable.custom .rf--form-wrapper .rf--form .rf--form-content .rf--form-elements .rf--body form .rf--form-inner ._heading-wrapper{
+    background-color: #3babfe;
+}
+.subill--rf-embeddable.custom .rf--form-wrapper .rf--form .rf--form-content .rf--form-elements .rf--body form .rf--form-inner ._heading-wrapper h2{
+    color: #ffffff;
+}
+.subill--rf-embeddable.custom .rf--form-wrapper .rf--form .rf--form-content .rf--form-elements .rf--body form .sb-form-group label,
+.subill--rf-embeddable.custom .rf--form-wrapper .rf--form .rf--form-content .rf--form-elements .rf--body form .sb-form-group .form-input-flex input{
+    color: #222222;
+}
+.subill--rf-embeddable.custom .rf--form-wrapper .rf--form .rf--form-content .rf--form-elements .rf--body form button.buttons{
+    background-color: #3babfe;
+}
+.subill--rf-embeddable.custom .addon-checkbox-widget-default-value-wrapper .iconToggleField{
+    border-color: #3babfe;
+}
+.subill--rf-embeddable.custom .addon-checkbox-widget-default-value-wrapper .iconToggleField.active span.itf-icon,
+.subill--rf-embeddable.custom .rf--form-wrapper .rf--form .rf--form-content .rf--form-elements .rf--body form .rf--form-inner .rf--summary h4,
+.subill--rf-embeddable.custom .rf--form-wrapper .rf--form .rf--form-content .rf--form-elements .rf--body form .rf--form-inner .rf--summary .fe--base-price-value, .subill--rf-embeddable .rf--form-wrapper .rf--form .rf--form-content .rf--form-elements .rf--body form .rf--form-inner .rf--summary .fe--total-price-value,
+.subill--rf-embeddable.custom .rf--form-wrapper .rf--form .rf--form-content .rf--form-elements .rf--body form .rf--form-inner .rf--summary .fe--total-price-wrapper .fe--total-price-label h5,
+.subill--rf-embeddable.custom .rf--form-wrapper .rf--form .rf--form-content .rf--form-elements .rf--body form button._text{
+    color: #3babfe !important;
+}
+.subill--rf-embeddable.custom .form-group{
+    margin-bottom: 0;
+}
+
+/* Login */
+#subill-login-form #subill-login-embed-container #subill-login-form .buttons._login, #subill-login-embed-container #subill-login-form .buttons._forgot-password-submit{
+    background-color: #3babfe;
+}
+
+/* Billing */
+.subill--embeddable.custom.subill--manage-billing-form-wrapper .mbf--form-wrapper h3{
+    font-size: 26px;
+}
+.subill--embeddable.custom.subill--manage-billing-form-wrapper .mbf--form-wrapper .mbf-summary{
+    padding-bottom: 34px;
+}
+.subill--embeddable.custom.subill--manage-billing-form-wrapper .subill-billing-invoices .__invoice-list-header,
+.subill--embeddable.custom.subill--manage-billing-form-wrapper .mbf--form-wrapper .mbf--current-services-list .mbf--current-services-item .subill-pricing-table ._tier,
+.subill--embeddable.custom .subill-billing-type-selector ul._selector li._interval._selected,
+.subill--embeddable.custom.subill--manage-billing-form-wrapper .mbf--form-wrapper .mbf--current-services-list .mbf--current-services-item .subill-subscription .subill-billing-type-selector ._selector ._interval._selected:hover,
+.subill--embeddable.custom .subill-invoice-modal-container .__modal .__header,
+.subill--embeddable.custom .subill-invoice-modal-container .__modal .__footer button{
+    background-color: #3babfe;
+    font-weight: 400;
+}
+.subill--embeddable.custom.subill--manage-billing-form-wrapper .subill-billing-invoices .__invoice-list li.__list-items .__invoice-button{
+    color: #3babfe !important;
+}
+.subill--embeddable.custom.subill--manage-billing-form-wrapper,
+.subill--embeddable.custom .subill-pricing-table ._tier._selected ._name,
+.subill--embeddable.custom.subill--manage-billing-form-wrapper .add-on-item-update-submit span,
+.subill--embeddable.custom.subill--manage-billing-form-wrapper .mbf--form-wrapper .mbf-summary ._heading,
+.subill--embeddable.custom.subill--manage-billing-form-wrapper .mbf--form-wrapper .mbf-summary ._items ._item ._value_wrap ._value{
+    color: #222222 !important;
+}
+.subill--embeddable.custom.subill--manage-billing-form-wrapper .subill-subscription-add-ons .add-on-item-widgets ._add-on-item-widget-wrapper .addon-options-widget-default-value-wrapper > .form-input-flex,
+.subill--embeddable.custom.subill--manage-billing-form-wrapper .subill-subscription-add-ons .add-on-item-widgets ._add-on-item-widget-wrapper .addon-checkbox-widget-default-value-wrapper .iconToggleField{
+    border-color: #222222;
+}
+.subill--embeddable.custom.subill--manage-billing-form-wrapper .add-on-item-update-submit span,
+.subill--embeddable.custom.subill--manage-billing-form-wrapper .add-on-item-update-submit label,
+.subill--embeddable.custom.subill--manage-billing-form-wrapper .subill-subscription-add-ons .add-on-item-widgets ._add-on-item-widget-wrapper .addon-options-widget-default-value-wrapper ._value-input-wrapper ._value-select{
+    font-size: 1em;
+}
+.subill--embeddable.custom.subill--manage-billing-form-wrapper .mbf--form-wrapper .mbf--current-services-list .mbf--current-services-item .subill-pricing-table ._tier._selected{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.10), 0 3px 6px rgba(0,0,0,0.14);
+}
+.subill--embeddable.custom.subill--manage-billing-form-wrapper .mbf--form-wrapper .mbf--current-services-list .mbf--current-services-item .subill-pricing-table ._tier ._selected-label{
+    background-color: #AEBED3;
+    color: white;
+    font-weight: bold;
+    border-color: transparent;
+}
+.subill--embeddable.custom .subill-invoice-modal-container .__modal .__header{
+    background-image: none;
+}
+.subill--embeddable.custom .subill-invoice-modal-container .__modal .__header .__inner .__left h3{
+    color: white;
+}
+.subill--embeddable.custom .subill-invoice-modal-container .__modal .__footer button{
+    border: none;
+}
+.subill--embeddable.custom.subill--manage-billing-form-wrapper .mbf--form-wrapper .mbf--current-services-list .mbf--current-services-item .subill-pricing-table ._tier button,
+.subill--embeddable.custom .mbf--btn-cancel-service,
+.subill--embeddable.custom .buttons._add:disabled, .buttons._add[disabled],
+.subill--embeddable.custom .buttons._add, .buttons._add,
+.subill--embeddable.custom .buttons._primary:disabled, .buttons._primary[disabled]
+.subill--embeddable.custom .buttons._primary, .buttons._primary,
+.subill--embeddable.custom .subill--embeddable.subill--manage-billing-form-wrapper .add-on-item-update-submit button,
+.subill--embeddable.custom .buttons._add,
+.subill--embeddable.custom .buttons._primary,
+.subill--embeddable.custom.subill--manage-billing-form-wrapper .mbf--form-wrapper #mbf--funding-form .mbf--update-funding-button-wrapper button.mbf--btn-update-funding,
+.subill--embeddable.custom .mbf--btn-resubscribe-service{
+    -webkit-border-radius: 50px !important;
+    -moz-border-radius: 50px !important;
+    border-radius: 50px !important;
+    padding: 7px 21px;
+}
+.subill--embeddable.custom .form-help-text{
+    font-size: 15px;
+}
+.subill--embeddable.custom.subill--manage-billing-form-wrapper .mbf--form-wrapper #mbf--funding-form .mbf--update-funding-wrapper .update-card-container button.mbf--btn-update-funding-save{
+    top: -53px;
+    right: 0;
+}
+.subill--embeddable.custom .buttons._add, .subill--embeddable.custom .buttons._primary,
+.subill--embeddable.custom .mbf--btn-resubscribe-service,
+#subill-login-form #subill-login-embed-container #subill-login-form .buttons._login,
+#subill-login-form #subill-login-embed-container #subill-login-form .buttons._forgot-password-submit{
+    background-color: #3babfe;
+}
+
+/* Seat Management */
+#subill-seat-management-form .subill-seat-management-container .buttons.__primary{
+    background-color: #3babfe;
+}
+
+/* Login Reactivate */
+#subill-login-form #subill-login-embed-container #subill-resubscribe-form ._checkout ._price ._price-value,
+#subill-login-form #subill-login-embed-container #subill-resubscribe-form ._checkout ._price ._price-unit{
+    color: #3aa6fe;
+}
+#subill-login-form #subill-login-embed-container #subill-resubscribe-form ._checkout .subill-resubscribe-form ._submissions .buttons._reactivate-account{
+    background-color: #3babfe;
+}
+
+/* Account Profile */
+#subill-pricing-embed .subill-pricing-table ._tier ._price ._interval-name {
+    display: block;
+    margin: 7px auto;
+}
+
+span._price {
+    height: 70px;
+}
+
+#subill-pricing-embed .subill-pricing-table ._tier ._name {
+    font-size: 25px;
+    color: #222222;
+    padding: 50px;
+}
+
+#subill-pricing-embed .subill-pricing-table ._tier ._price {
+    font-size: 25px;
+}
+
+#subill-pricing-embed .subill-pricing-table ._tier button._select-tier {
+    border-radius: 2px;
+}
+
+.subill-pricing-table ._tier:after {
+    height: calc(100% - 60px);
+    top: auto;
+    bottom: 0;
+    border-right: 1px solid #f4f6fb;
+}
+
+#subill-pricing-embed .subill-pricing-table ._tier ._name {
+    background: #fff;
+}
+
