@@ -20,19 +20,40 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Sign Up</title>
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700|Arimo:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <link rel="stylesheet" href="src/subill-embeds.css">
 
   </head>
-  <body>
+  <body class="is-boxed has-animations">
+      <header class="site-header">
+          <div class="container">
+              <div class="site-header-inner">
+                  <div class="brand header-brand">
+                          <h1 class="m-0">
+                                  <a href="#">
+                                      <img src="dist/images/logo.svg" alt="Blue logo">
+                                  </a>
+                          </h1>
+                  </div>
+                  <ul class="header-links list-reset m-0">
+                      <li>
+                          <a class="button button-secondary button-shadow button-block" href="basic.html">Sign Up</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+  </header>
   <div id="subill-login-form"></div>
 
   <script src="https://login.subill.co/public/js/login.js" type="text/javascript"></script>
 
   <script  type="text/javascript">
     Subill.Login({
-        PrivateSecretKey : "Your Secret Key",
         //Get your Private Secret key from settings in Subill Dashboard
-        url : "http://localhost:3000",
+        PrivateSecretKey : "Your Secret Key",
+        url : "https://app.subill.co",
         selector : document.getElementById('subill-login-form'),
         handleResponse : (response) => {
             console.log(response);
